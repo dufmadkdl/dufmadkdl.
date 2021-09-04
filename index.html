@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>I W O P</title>
+		<link rel="stylesheet" href="css/fullpage.css" />
+		<link rel="stylesheet" href="css/font-face.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="js/fullpage.js"></script>
+		<script>
+			$(document).ready(function () {
+				$("#fullpage").fullpage({
+					autoScrolling: true,
+					scrollHorizontally: true,
+					navigation: true,
+				});
+			});
+		</script>
+	</head>
+
+	<body>
+		<div id="fullpage">
+			<header class="section">
+				<div class="container">
+					<div class="container__title">
+						<div class="animated bounceIn">서레베카의</div> 
+						<div class="animated bounceIn">자기소개 사이트</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="section">
+				<div class="container">
+					<div class="container__wrapper container__wrapper__background__color__white">
+						<img src="https://i.imgur.com/I1HGtEZ.jpg" class="container__profile"/>
+
+						<div class="container__text">이름:서레베카 <br />나이:16살 <br />학교:서울문영여자중학교 <br />MBTI:ISFP
+							<div class="container__link">
+								<a href="https://github.com/dufmadkdl">
+									<img class="container__link__image" src="./assets/img/githubicon.png">
+								</a>
+								<a href="https://www.facebook.com/sunrinIwop">
+									<img class="container__link__image" src="./assets/img/facebookicon.png">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<div class="container__wrapper">
+						<img src="https://img1.daumcdn.net/thumb/R720x0/?fname=https:%2F%2Ft1.daumcdn.net%2Fliveboard%2Fnotepet%2F407f2b7eb29b49829b9a444cb232e175.png" />
+						<div class="container__introduce__text">안녕하세요 문영여자중학교에 재학 중인 서레베카입니다 반갑습니다:)</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section">
+				<div class="container">
+					<div class="container__wrapper">
+						<div class="container__wrapper__title">좋아하는 것</div>
+						<div class="container__wrapper__content">
+							<div>
+								<img src="https://tse2.mm.bing.net/th?id=OIP.8UWiWGXA8Lt54q9ztEwwnQAAAA&pid=Api&P=0&w=244&h=180" class="container__wrapper__content__image"/>
+								<div class="container__wrapper__content__text">과일</div>
+							</div>
+							
+							<div>
+								<img src="http://t1.daumcdn.net/liveboard/textat/43424547c0f44cdbb04bded95254904c.png" class="container__wrapper__content__image"/>
+								<div class="container__wrapper__content__text">자는 것</div>
+							</div>
+
+							<div>
+								<img src="https://w7.pngwing.com/pngs/205/605/png-transparent-sherlock-holmes-doctor-watson-television-show-poster-sherlock-television-poster-film.png" class="container__wrapper__content__image"/>
+								<div class="container__wrapper__content__text">영화</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
